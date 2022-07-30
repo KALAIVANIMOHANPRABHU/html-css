@@ -1,0 +1,50 @@
+ul{
+    list-style-type: none;
+    margin:10px;
+    padding:20px;
+    background-color:white;
+    overflow: hidden;}
+
+li{
+    float: right;
+}
+li a{
+    display:inline-block;
+    color:rgb(20, 17, 17);
+    text-align: center;
+    padding:16px;
+    text-decoration: none;
+    
+    
+}
+li a:hover{
+    background-color:#c91111;
+}
+body{
+    background-color: rgb(20, 232, 232);
+}
+div{
+    margin-right:300px;
+    height:500px;
+    width:500px;
+    padding:50px;
+    
+}
+.btn{
+    border-color: coral;
+    background-color: gray;
+}
+body{
+    background-image: url("background-paint-colors-colorful-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.img{
+
+float: left;
+margin-right: 300px;
+
+}
+

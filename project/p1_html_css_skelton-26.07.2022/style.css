@@ -1,0 +1,7 @@
+*{margin:0px;padding:0px;}
+.wrapper{width:100%;float:left;}
+.data_center_0{max-width:400px;margin:0px auto;}
+.header_section{width:100%;float:left;background-color:#036;min-height:50px;}
+.header_section:hover{background-color:red}
+.menu_section{width:100%;float:left;background-color:#036;min-height:50px;}
+.menu_section:hover{background-color:green}

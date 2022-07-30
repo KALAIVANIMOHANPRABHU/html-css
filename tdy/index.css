@@ -1,0 +1,68 @@
+.div{
+    height:100vh;
+    width:100vw;
+    padding:3px;
+    background-color:darkgreen;
+    margin: 10px;
+    border:solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+    box-sizing:border-box;
+    background: -webkit-linear-gradient(left bottom,red,yellow,lime);
+    position:absolute;
+}
+@media screen{
+    p{
+        color:red;
+        font-size: x-large;
+    }
+}
+@media print{
+    p{
+        color:green;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+}
+@media screen,print{
+    p{
+    line-height:1.2;
+    }
+}
+p::first-letter{
+    color: darkblue;
+    font-variant:small-caps;
+}
+p::after{
+    content: url("nature-3082832__340.webp");
+}
+.card{
+    background:-webkit-linear-gradient(left bottom,green,yellow,pink);
+    height:30vh;
+    padding:3px;
+    border:solid;
+    border-color:bisque;
+    border-width:10px;
+    box-sizing: border-box;
+    width:30vw;
+    border-radius: 10px;
+}
+.container .column:first-child{
+    margin-right: 4%;
+}
+@media screen and(maxwidth:767px){
+    .column{
+        width:100%;
+        padding:20px;
+        float:left;
+    }
+}
+
+
+
+
+
+
+
+
